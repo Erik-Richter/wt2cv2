@@ -1,0 +1,67 @@
+body{
+    background-color: #cccccc;
+    background-image: url("../img/background/2-24810_cloud-wallpaper-hd-full-hd-cloud.jpg");
+}
+
+table{
+    background-color: #cccccc;
+    opacity: 90%;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.odkaz{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+    list-style: none;
+    padding-left: 20px;
+    color: snow;
+    background-color: #333333;
+    padding-top: 10px;
+    padding-bottom: 6px;
+    left: 0;
+    right: 0;
+}
+
+.zarovnanieP{
+    text-align: right;
+}
+
+
+.my-custom-scrollbar {
+    position: relative;
+    overflow: auto;
+    min-height: 200px;
+}
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+table.sortable thead {
+
+    font-weight: bold;
+    cursor: default;
+}
+
+main{
+    background-color: #cccccc;
+    opacity: 60%;
+}
+
+#upl{
+    position: fixed;
+    bottom: 5px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+section{
+    display: none;
+}
