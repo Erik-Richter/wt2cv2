@@ -16,3 +16,19 @@ table.addEventListener('afterSort', function() {
 });
 
 
+function vnorenie(nazovPriecinku){
+    console.log(nazovPriecinku);
+    $.post('generovanie.php', 'cesta=' + nazovPriecinku, function (response){
+        $("#teloTabulky").html(response);
+
+    });
+}
+
+function spat(){
+    $.post('generovanie.php', function (response){
+        $("#teloTabulky").html(response);
+    });
+}
+
+
+

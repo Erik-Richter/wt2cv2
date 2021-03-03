@@ -22,7 +22,7 @@
         <tr> <th>Názov súboru</th> <th class="zarovnanieP">Veľkosť súboru</th> <th class="zarovnanieP">Dátum nahratia</th> </tr>
     </thead>
 
-    <tbody>
+    <tbody id="teloTabulky">
     <?php
     include "generovanie.php";
     ?>
@@ -62,7 +62,10 @@
     include "tabulka.php";
 ?-->
 <div id="demo"></div>
+<img id="spat" src="img/icon/arrow-42915_960_720.png" width="50" height="50" onclick="spat()">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <script src="js/script.js"></script>
+
 </body>
 </html>

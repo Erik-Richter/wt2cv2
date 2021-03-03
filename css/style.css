@@ -65,3 +65,15 @@ main{
 section{
     display: none;
 }
+
+#spat{
+    position: absolute;
+    top: 6px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.link:hover{
+    cursor: pointer;
+    color: #00f;
+}
